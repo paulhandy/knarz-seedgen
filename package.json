@@ -1,0 +1,20 @@
+{
+  "name": "seedgen",
+  "version": "1.0.0",
+  "description": "Trinary Seed Generator with Entropy Collector",
+  "main": "seedgen.js",
+  "scripts": {
+    "compile": "gulp --harmony"
+  },
+  "author": "Knarz",
+  "license": "MIT",
+  "dependencies": {
+    "babel-loader": "^7.1.2",
+    "babel-preset-stage-0": "^6.24.1",
+    "babel-register": "^6.26.0",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^7.0.0",
+    "sjcl": "^1.0.7",
+    "webpack": "^3.5.5"
+  }
+}
